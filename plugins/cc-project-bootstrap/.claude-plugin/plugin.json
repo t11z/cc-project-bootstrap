@@ -1,0 +1,24 @@
+{
+  "name": "cc-project-bootstrap",
+  "displayName": "CC Project Bootstrap",
+  "version": "1.0.0",
+  "description": "Bootstraps a new Claude Code project to Thomas' conventions: CLAUDE.md hierarchy, smADR decision records, ADR + security-review commands/agents/skills, OAuth-only GitHub workflows (security review, smADR validation, gated issue-triage bot, CI), issue/PR templates, Dependabot, and optional Prisma AIRS hooks.",
+  "author": {
+    "name": "Thomas",
+    "url": "https://github.com/t11z"
+  },
+  "homepage": "https://github.com/t11z/cc-project-bootstrap",
+  "repository": "https://github.com/t11z/cc-project-bootstrap",
+  "license": "MIT",
+  "keywords": [
+    "bootstrap",
+    "project-setup",
+    "scaffolding",
+    "claude-md",
+    "adr",
+    "smadr",
+    "github-actions",
+    "security-review",
+    "conventions"
+  ]
+}
