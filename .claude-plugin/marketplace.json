@@ -1,0 +1,23 @@
+{
+  "name": "t11z",
+  "owner": {
+    "name": "Thomas",
+    "url": "https://github.com/t11z"
+  },
+  "description": "Thomas' Claude Code plugin marketplace.",
+  "plugins": [
+    {
+      "name": "cc-project-bootstrap",
+      "source": "./plugins/cc-project-bootstrap",
+      "description": "Bootstraps a new Claude Code project to Thomas' conventions: CLAUDE.md hierarchy, smADR decision records, ADR + security-review commands/agents/skills, OAuth-only GitHub workflows (security review, smADR validation, gated issue-triage bot, CI), issue/PR templates, Dependabot, and optional Prisma AIRS hooks.",
+      "category": "project-setup",
+      "tags": [
+        "bootstrap",
+        "scaffolding",
+        "claude-md",
+        "adr",
+        "github-actions"
+      ]
+    }
+  ]
+}
