@@ -1,18 +1,14 @@
 {
-  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "t11z",
   "owner": {
     "name": "Thomas",
     "url": "https://github.com/t11z"
   },
   "description": "Thomas' Claude Code plugin marketplace.",
-  "metadata": {
-    "pluginRoot": "./plugins"
-  },
   "plugins": [
     {
       "name": "cc-project-bootstrap",
-      "source": "./cc-project-bootstrap",
+      "source": "./plugins/cc-project-bootstrap",
       "description": "Bootstraps a new Claude Code project to Thomas' conventions: CLAUDE.md hierarchy, smADR decision records, ADR + security-review commands/agents/skills, OAuth-only GitHub workflows (security review, smADR validation, gated issue-triage bot, CI), issue/PR templates, Dependabot, and optional Prisma AIRS hooks.",
       "category": "project-setup",
       "tags": [
